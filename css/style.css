@@ -1,0 +1,159 @@
+/* common style */
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+p{
+    font-size: 16px;
+}
+h1,h2,h3{
+    font-weight: 700;
+}
+.primary-btn{
+    height: 64px;
+    border: 0;
+    border-radius: 5px;
+    padding:20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+    background:#fff;
+    color: #005FAC;
+}
+main{
+
+}
+section{
+    margin: 130px 230px 0 230px;
+}
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(../images/banner/banner3.png);
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+    padding: 200px 230px 200px 100px ;
+}
+.banner h1{
+    font-size: 65;
+    color:#fff;
+    margin-bottom: 24px;
+
+}
+.banner p{
+    width: 494px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+/* About us section css */
+.about-us{
+    display: flex;
+    align-items: center;
+}
+.about-us img{
+    margin-right: 50px;
+}
+section.about-us i.fa-solid {
+    font-size: 18px;
+    color: #16D887;
+    padding-right: 10px;
+}
+.about-us h2{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.about-description{
+    margin-bottom: 25px;
+}
+.about-us ul{
+    margin: 0;
+    padding: 0;
+}
+.about-us li{
+    list-style: none;
+    padding: 7px 0;
+}
+
+/* My plans section css */
+.my-plans{
+    text-align: center;
+}
+.my-plans h2{
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.my-plans h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin:16px 0;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+}
+/* Call to action area css */
+.cta{
+    background-image:url('../images/gradient1.png'),url("../images/watch.png");
+    background-position: center;
+    background-size: cover;
+    padding: 60px;
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+.cta h2{
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+
+}
+/* Footer area */
+.footer{
+    background:#151414 ;
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+    padding: 130px 230px;
+}
+.footer h2{
+    font-weight: 700;
+    font-size: 45px;
+}
+.foteer-info{
+    margin: 16px 0;
+}
+
+.social-links{
+    margin-top: 32px;
+}
+.social-links a{
+    padding-right: 18px;;
+}
+.newsletter h3{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+.newsletter input[type='email']{
+    background:transparent;
+    border:1px solid #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+
+}
+.newsletter input[type='submit']{
+    background:#005FAC;
+    color:#fff;
+    border:0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 16px;
+
+}
